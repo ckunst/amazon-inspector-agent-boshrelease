@@ -1,0 +1,5 @@
+check process amazon-inspector-agent
+  with pidfile /var/vcap/sys/run/amazon-inspector-agent/pid
+  start program "/var/vcap/jobs/amazon-inspector-agent/bin/ctl start"
+  stop program "/var/vcap/jobs/amazon-inspector-agent/bin/ctl stop"
+  group vcap

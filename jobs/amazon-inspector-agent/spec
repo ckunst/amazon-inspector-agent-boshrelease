@@ -1,0 +1,10 @@
+---
+name: amazon-inspector-agent
+
+templates:
+  bin/ctl.erb: bin/ctl
+
+packages:
+  - amazon-inspector-agent
+
+properties: {}

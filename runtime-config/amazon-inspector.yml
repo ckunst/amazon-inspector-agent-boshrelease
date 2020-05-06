@@ -1,0 +1,11 @@
+releases:
+  - name: amazon-inspector-boshrelease
+    version: 1
+addons:
+  - name: amazon-inspector-agent-xenial
+    jobs:
+      - name: amazon-inspector-agent
+        release: amazon-inspector-boshrelease
+    include:
+      stemcell:
+        - os: ubuntu-xenial

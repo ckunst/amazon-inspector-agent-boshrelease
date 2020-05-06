@@ -1,0 +1,9 @@
+blobs/
+config/
+*.deb
+*.tgz
+dev_releases/
+.dev_builds/
+.final_builds/
+releases/
+.idea/

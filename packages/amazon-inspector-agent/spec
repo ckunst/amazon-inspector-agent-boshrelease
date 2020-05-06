@@ -1,0 +1,7 @@
+---
+name: amazon-inspector-agent
+
+dependencies: []
+
+files:
+  - install
